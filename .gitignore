@@ -3,3 +3,6 @@ Frogrunners.layout
 .svn/format
 *.svn-base
 .svn/wc.db
+Frogrunners.depend
+*.o
+Salida/Frogrunners_Debug.exe
