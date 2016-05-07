@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Frogrunners" />
+		<Option platforms="Windows;" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_compiler__configurado_con_para_sdl_jonatandb" />
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Windows;" />
+				<Option output="Salida\Frogrunners_Debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Salida" />
+				<Option object_output="Fuentes\obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="gnu_gcc_compiler__configurado_con_para_sdl_jonatandb" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option platforms="Windows;" />
+				<Option output="Salida\Frogrunners_Release" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="Salida" />
+				<Option object_output="Fuentes\obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gnu_gcc_compiler__configurado_con_para_sdl_jonatandb" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:\Program Files (x86)\CodeBlocks\MinGW\SDL\include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDLmain -lSDL -lSDL_image -lSDL_ttf -lSDL_mixer" />
+			<Add directory="C:\Program Files (x86)\CodeBlocks\MinGW\SDL\lib" />
+		</Linker>
+		<Unit filename="Fuentes\CAnimacion.cpp" />
+		<Unit filename="Fuentes\CAnimacion.h" />
+		<Unit filename="Fuentes\CAplicacion.cpp" />
+		<Unit filename="Fuentes\CAplicacion.h" />
+		<Unit filename="Fuentes\CEntidad.cpp" />
+		<Unit filename="Fuentes\CEntidad.h" />
+		<Unit filename="Fuentes\CEvento.cpp" />
+		<Unit filename="Fuentes\CEvento.h" />
+		<Unit filename="Fuentes\CMusica.cpp" />
+		<Unit filename="Fuentes\CMusica.h" />
+		<Unit filename="Fuentes\CSonido.cpp" />
+		<Unit filename="Fuentes\CSonido.h" />
+		<Unit filename="Fuentes\CSuperficie.cpp" />
+		<Unit filename="Fuentes\CSuperficie.h" />
+		<Unit filename="Fuentes\Configuraciones.h" />
+		<Unit filename="Fuentes\Frogrunners.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
